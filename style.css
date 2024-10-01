@@ -1,0 +1,64 @@
+div.themes div{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.light{
+    background-color: #efefef;
+    color: #212121;
+}
+.dark{
+    color: #efefef;
+    background-color: #212121;
+}
+.pink{
+    background-color: #ffc0cb;
+    color: #5e5e5f;
+}
+
+body {
+    background-color: #f3f4f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+.form-header {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.form-group label {
+    font-weight: bold;
+    color: #333333;
+}
+.divider {
+    height: 2px;
+    background-color: #17a2b8;
+    margin: 20px 0;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #17a2b8;
+}
+.btn-custom {
+    background-color: #17a2b8;
+    border-color: #18a4a6;
+    color: #fff;
+}
+.btn-custom:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+.text-muted {
+    font-style: italic;
+    color: #6c757d;
+}
+.info-text {
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
